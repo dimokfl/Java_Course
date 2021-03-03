@@ -23,7 +23,7 @@ public class Main {
         while (true) {
             humanTurn();
             printMap();
-            if (winCheck0(DOT_X)) {
+            if (winCheckHor(DOT_X) || winCheckVert(DOT_X) || winCheckDiag(DOT_X)) {
                 System.out.println("Победил человек");
                 break;
             }
@@ -33,7 +33,7 @@ public class Main {
             }
             aiTurn();
             printMap();
-            if (winCheck0(DOT_O)) {
+            if (winCheckHor(DOT_O) || winCheckVert(DOT_O) || winCheckDiag(DOT_O)) {
                 System.out.println("Победил Искусственный Интеллект");
                 break;
             }
@@ -114,4 +114,51 @@ public class Main {
         return false;
     }
 
+    public static boolean winCheckHor(char symb){
+        for (int i = 0; i < SIZE; i++){
+            int a = 0;
+            for (int j = 0; j < SIZE; j++){
+                if (map[i][j] == symb){
+                    a++;
+                }
+            }
+            if (a == DOTS_TO_WIN) {
+                return true;
+            }
+        }return false;
+    }
+
+    public static boolean winCheckVert(char symb){
+        for (int i = 0; i < SIZE; i++){
+            int a = 0;
+            for (int j = 0; j < SIZE; j++){
+                if (map[j][i] == symb){
+                    a++;
+                }
+            }
+            if (a == DOTS_TO_WIN) {
+                return true;
+            }
+        }return false;
+    }
+
+    public static boolean winCheckDiag(char symb){
+        int a = 0;
+        int b = 0;
+        for (int i = 0; i < SIZE; i++) {
+            if (map[i][i] == symb) {
+                a++;
+            }
+            if (map[i][SIZE - 1 - i] == symb) {
+                b++;
+            }
+        }
+        if (a == DOTS_TO_WIN) {
+            return true;
+        }
+        if (b == DOTS_TO_WIN) {
+            return true;
+        }
+        return false;
+    }
 }
