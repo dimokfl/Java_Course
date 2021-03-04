@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Main {
 
     public static char[][] map;
-    public static final int SIZE = 3;
-    public static final int DOTS_TO_WIN = 3;
+    public static final int SIZE = 5;
+    public static final int DOTS_TO_WIN = 4;
 
     public static final char DOT_EMPTY = '*';
     public static final char DOT_X = 'X';
@@ -54,6 +54,7 @@ public class Main {
     }
 
     public static void printMap(){
+        System.out.println("Для победы соберите " + DOTS_TO_WIN + " крестика в ряд:");
         for (int i = 0; i <= SIZE;i++){
             System.out.print(i + " ");
         }
@@ -118,11 +119,15 @@ public class Main {
         for (int i = 0; i < SIZE; i++){
             int a = 0;
             for (int j = 0; j < SIZE; j++){
-                if (map[i][j] == symb){
+                if (map[i][j] == symb) {
                     a++;
+                } else if (a == DOTS_TO_WIN){
+                    break;
+                } else if (map[i][j] != symb){
+                    a = 0;
                 }
             }
-            if (a == DOTS_TO_WIN) {
+            if (a >= DOTS_TO_WIN) {
                 return true;
             }
         }return false;
@@ -134,9 +139,13 @@ public class Main {
             for (int j = 0; j < SIZE; j++){
                 if (map[j][i] == symb){
                     a++;
+                } else if (a == DOTS_TO_WIN){
+                    break;
+                } else if (map[j][i] != symb){
+                    a = 0;
                 }
             }
-            if (a == DOTS_TO_WIN) {
+            if (a >= DOTS_TO_WIN) {
                 return true;
             }
         }return false;
@@ -148,17 +157,26 @@ public class Main {
         for (int i = 0; i < SIZE; i++) {
             if (map[i][i] == symb) {
                 a++;
+            } else if (a == DOTS_TO_WIN){
+                break;
+            } else if (map[i][i] != symb){
+                a = 0;
             }
             if (map[i][SIZE - 1 - i] == symb) {
                 b++;
+            } else if (b == DOTS_TO_WIN){
+                break;
+            } else if (map[i][SIZE - 1 - i] != symb){
+                b = 0;
             }
         }
-        if (a == DOTS_TO_WIN) {
+        if (a >= DOTS_TO_WIN) {
             return true;
         }
-        if (b == DOTS_TO_WIN) {
+        if (b >= DOTS_TO_WIN) {
             return true;
         }
         return false;
     }
+
 }
