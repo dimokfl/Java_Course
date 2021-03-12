@@ -3,7 +3,7 @@ package geekbrains.home_work_6;
 public class Cat extends Animal {
 
     private static int countCat = 0;
-    public final int RUN_DISTANCE_CAT = 200;
+    private final int RUN_DISTANCE_CAT = 200;
 
     public Cat(String name, String color, int age){
         super(name, color, age);

@@ -1,6 +1,6 @@
 package geekbrains.home_work_6;
 
-public class Animal {
+public abstract class Animal {
 
     protected String name;
     protected String color;
@@ -16,13 +16,9 @@ public class Animal {
         countAnimal++;
     }
 
-    public void run(int run){
-        System.out.println("Животное пробежало " + run + " метров.");
-    }
+    public abstract void run(int run);
 
-    public void swim(int swim){
-        System.out.println("Животное проплыло " + swim + " метров.");
-    }
+    public abstract void swim(int swim);
 
     public static void getCountAnimal(){
         System.out.println("Создано " + countAnimal + " животных.");

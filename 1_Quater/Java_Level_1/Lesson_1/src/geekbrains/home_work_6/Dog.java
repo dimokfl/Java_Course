@@ -3,8 +3,8 @@ package geekbrains.home_work_6;
 public class Dog extends Animal{
 
     private static int countDog = 0;
-    public final int RUN_DISTANCE_CAT = 500;
-    public final int SWIM_DISTANCE_CAT = 10;
+    private final int RUN_DISTANCE_CAT = 500;
+    private final int SWIM_DISTANCE_CAT = 10;
 
     public Dog(String name, String color, int age){
         super(name, color, age);
