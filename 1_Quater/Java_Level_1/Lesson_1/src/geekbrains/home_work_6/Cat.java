@@ -3,6 +3,7 @@ package geekbrains.home_work_6;
 public class Cat extends Animal {
 
     private static int countCat = 0;
+    public final int RUN_DISTANCE_CAT = 200;
 
     public Cat(String name, String color, int age){
         super(name, color, age);
@@ -11,9 +12,9 @@ public class Cat extends Animal {
 
     @Override
     public void run(int run){
-        if(run < 200) {
+        if(run < RUN_DISTANCE_CAT) {
             System.out.println(name + " пробежал " + run + " метров.");
-        } else System.out.println(name + " как и все коты может пробежать 200 метров, а он пробежал на " + (run - 200) + " метров больше и сдох((((" );
+        } else System.out.println(name + " как и все коты может пробежать " + RUN_DISTANCE_CAT + " метров, а он не может пробежал на " + (run - RUN_DISTANCE_CAT) + " метров больше." );
     }
 
     public void swim(int swim){
