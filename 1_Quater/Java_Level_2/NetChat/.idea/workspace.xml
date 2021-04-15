@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cc62c72-e1fa-4bf0-a88c-c2e47e2e0800" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/Lesson4_chat_hw.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson4_chat_hw/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/NetChat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrain/mavenjavafxnetchat/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/geekbrain/mavenjavafxnetchat/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/fxml/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/SVNChat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/border/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/border/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/border/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/css/colors.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/graph/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/graph/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/graph/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/vbox/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/vbox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SVNChat/src/vbox/sample.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../../.." value="HW_1Q_2L" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1rA5WzflJ8SyXaKQg8ggYyY4FNQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrain.mavenjavafxnetchat.MainApp" />
+      <module name="NetChat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.geekbrain.mavenjavafxnetchat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cc62c72-e1fa-4bf0-a88c-c2e47e2e0800" name="Default Changelist" comment="" />
+      <created>1618406092599</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618406092599</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

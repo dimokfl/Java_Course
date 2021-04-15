@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.geekbrain.mavenjavafxnetchat.controller.MainController">
+
+<stylesheets>
+    <URL value="@/ru.geekbrain.mavenjavafxnetchat/css/style.css" />
+</stylesheets>
+
+<children>
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="210.0" text="Список участников" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0" />
+    <TextArea fx:id="primaryTextArea" editable="false" layoutX="27.0" layoutY="27.0" prefHeight="700.0" prefWidth="900.0" wrapText="true" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="60.0" />
+    <Label alignment="TOP_CENTER" layoutX="16.0" layoutY="377.0" prefHeight="18.0" prefWidth="300.0" text="Статус" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" />
+    <Label alignment="TOP_CENTER" layoutX="518.0" layoutY="377.0" prefHeight="18.0" prefWidth="300.0" text="Действия" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+    <TextField fx:id="sendText" alignment="TOP_LEFT" layoutX="30.0" layoutY="500.0" prefHeight="80.0"
+               prefWidth="750.0" promptText="Введите Ваше сообщение..." AnchorPane.bottomAnchor="40.0"
+               AnchorPane.leftAnchor="30.0" onAction="#clickSendEnter"/>
+    <MenuBar layoutX="30.0" layoutY="2.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="20.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Файл">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="Открыть новый чат" />
+                    <MenuItem mnemonicParsing="false" text="Сохранить чат" />
+                    <MenuItem mnemonicParsing="false" onAction="#close" text="Закрыть чат" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Правка">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="Скопировать текст" />
+                    <MenuItem mnemonicParsing="false" text="Вставить текст" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Вид">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="Вид 1" />
+                    <MenuItem mnemonicParsing="false" text="Вид 2" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Помощь">
+                <items>
+                    <MenuItem mnemonicParsing="false" text="О программе" />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+    <Button fx:id="sendButton" alignment="CENTER" contentDisplay="CENTER" layoutX="790.0" layoutY="780.0"
+            mnemonicParsing="false" onAction="#clickSend" prefHeight="80.0" prefWidth="140.0"
+            text="Отправить сообщение" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="40.0" />
+    <TextArea fx:id="textMembers" editable="false" layoutX="1029.0" layoutY="60.0" prefHeight="800.0" prefWidth="210.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="60.0" />
+    <Label fx:id="timeLine" alignment="CENTER" contentDisplay="CENTER" layoutX="704.0" layoutY="22.0" prefHeight="26.0" prefWidth="225.0" text="Здесь хочу счетчик времени" AnchorPane.leftAnchor="704.0" AnchorPane.topAnchor="20.0" />
+</children>
+</AnchorPane>
