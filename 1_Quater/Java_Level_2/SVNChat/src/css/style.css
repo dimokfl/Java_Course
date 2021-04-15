@@ -1,0 +1,41 @@
+.root{
+    -fx-font-size: 15px;
+    /*-fx-background-image: url("https://ftopx.com/images/201307/ftop.ru_63001.jpg");*/
+    -fx-background-image: url("/image/optimus.jpg");
+    -fx-background-size: 100%, 100%;
+}
+
+.button{
+    -fx-background-color: darkseagreen;
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+
+.button:hover, #btn2:hover{
+    -fx-background-color: #f8ff62;
+    -fx-font-size: 15px
+}
+
+#btn2{
+    -fx-background-color: #113cff;
+}
+
+#addBtn{
+    -fx-background-color: #54ff11;
+}
+
+#addBtn:hover{
+    -fx-background-color: red;
+}
+
+.text-area{
+    -fx-background-color: #113cff;
+    -fx-control-inner-background: pink;
+    -fx-text-fill: #a600ff;
+    -fx-highlight-text-fill: yellow;
+    -fx-highlight-fill: blue;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+

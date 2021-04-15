@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graph.Controller">
+
+    <stylesheets>
+        <URL value="@/css/style.css" />
+    </stylesheets>
+   <children>
+      <Button mnemonicParsing="false" text="Button" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <CheckBox mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="60.0" />
+      <CheckBox mnemonicParsing="false" text="CheckBox" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="100.0" />
+      <RadioButton mnemonicParsing="false" text="RadioButton" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <RadioButton mnemonicParsing="false" text="RadioButton" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+      <RadioButton mnemonicParsing="false" text="RadioButton" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+   </children>
+
+
+
+
+
+</AnchorPane>

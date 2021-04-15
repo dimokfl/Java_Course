@@ -1,0 +1,55 @@
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import java.net.URL?>
+<BorderPane fx:controller="border.Controller"
+            xmlns:fx="http://javafx.com/fxml" >
+
+    <stylesheets>
+        <URL value="@/css/style.css"/>
+    </stylesheets>
+
+    <top>
+        <MenuBar>
+            <Menu text="Файл">
+                <MenuItem text="Открыть"/>
+                <MenuItem text="Сохранить"/>
+                <MenuItem text="Закрыть" onAction="#clickClose"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <Slider fx:id="slider" min="0" max="255" showTickLabels="true" showTickMarks="true"
+        onMouseReleased="#sliderMouseRelease"/>
+
+    </center>
+
+    <bottom>
+        <HBox>
+            <Button text="Кнп1"/>
+            <Button fx:id="btn2" text="Кнп2"/>
+            <Button text="Кнп3"/>
+            <Button text="Кнп4"/>
+            <Label fx:id="label" text="Слайдер:"/>
+        </HBox>
+
+    </bottom>
+
+    <left>
+
+    </left>
+
+    <right>
+
+    </right>
+
+
+
+
+</BorderPane>
